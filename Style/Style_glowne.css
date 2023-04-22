@@ -107,12 +107,19 @@ hr{
 }
 
 .container-strona1-each-img{
-    display: inline-block;
+    display: flex;
     width: 250px;
     height: 300px;
     background-color: aqua;
+    justify-content: center;
+    border-radius: 25px;
 
 }
 
 .img-strona1{
+    display: block;
+    max-height: 95%;
+    max-width: 95%;
+    border-radius: 25px;
+    margin-top: -35px;
 }
