@@ -1,0 +1,31 @@
+
+/* Style osobiscie dla znaczników*/
+
+header{
+    display: flex;
+    background-color: green;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style osobiscie dla klas*/
+
+.main-container{
+
+}
+
+.interlude{
+    height: 75px;
+}
+
+.title-img-container{
+    height: 90vh;
+}
+
+.title-page-img{
+    height: 100%;
+    width: 100%;
+}
