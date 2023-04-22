@@ -1,31 +1,118 @@
 
 /* Style osobiscie dla znaczników*/
 
+body{
+    background-color: lightgrey;
+}
+
+/* Menu górne*/
+
 header{
     display: flex;
-    background-color: green;
+    background-color: lightblue;
+    opacity: 0.75;
     position: fixed;
+    height: 75px;
     height: 100px;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+/*Głownie chodzi tutaj o hiperlinki w menu górnym */ 
+a{
+    margin: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+hr{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+}
 /* Style osobiscie dla klas*/
 
-.main-container{
+/* Style dla klas ogólnych*/
 
+
+.main-container{
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    height: 100%;
+    background-color:red;
 }
 
 .interlude{
-    height: 75px;
+    height: 100px;
 }
 
+/* Style  dla klas dla strony początkowej*/
+
 .title-img-container{
-    height: 90vh;
+    height: 88vh;
+    width: 100%;
 }
 
 .title-page-img{
     height: 100%;
     width: 100%;
+}
+
+/* Style dla klas dla strony "O Nas*/
+
+.container-o-nas{
+    background-color: green;
+    color: white;
+    height: 100vh;
+}
+
+.container-o-nas-title{
+    font-size: 100px;
+    display: block;
+    padding: 15%;
+    padding-top: 8%;
+    padding-bottom: 0;
+    width: 100%;
+
+}
+.container-p-o-nas{
+    display: flex; 
+    padding-top: 30px;   
+}
+
+.p-o-nas-2{
+    display: inline-block;
+    word-wrap: break-word;
+    width: 30%;
+    margin-left: 15%;
+}
+
+/* Style dla strony I*/
+
+.container-strona1{
+    height: 100vh;
+    background-color:wheat;
+}
+
+.container-strona1-img{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-strona1-each-img{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    background-color: aqua;
+
+}
+
+.img-strona1{
 }
