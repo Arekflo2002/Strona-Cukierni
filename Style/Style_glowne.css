@@ -3,7 +3,7 @@
 
 body{
     background-color: lightgrey;
-    margin: 0;
+    margin: auto;
 }
 
 /* Menu górne*/
@@ -35,17 +35,19 @@ hr{
 }
 /* Style osobiscie dla klas*/
 
-/* Style dla klas ogólnych*/
-
-
-.main-container{
-    width: 70%;
+/* Style dla klas ogólnych
     margin: auto;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2.5%;
+*/
+
+
+.main-container{
+    width: 70%;
+
 }
 
 .container{
