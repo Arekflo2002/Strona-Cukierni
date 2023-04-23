@@ -10,7 +10,7 @@ body{
 header{
     display: flex;
     background-color: lightblue;
-    opacity: 0.75;
+    opacity: 1;
     position: fixed;
     height: 75px;
     height: 100px;
@@ -21,7 +21,7 @@ header{
 
 /*Głownie chodzi tutaj o hiperlinki w menu górnym */ 
 a{
-    margin: 15px;
+    margin: 35px;
     color: black;
     font-weight: bold;
     font-size: 30px;
@@ -113,13 +113,50 @@ hr{
     background-color: aqua;
     justify-content: center;
     border-radius: 25px;
-
 }
 
 .img-strona1{
     display: block;
-    max-height: 95%;
-    max-width: 95%;
+    height: 95%;
+    width: 85%;
     border-radius: 25px;
     margin-top: -35px;
+}
+
+/* Style których będe uzywal zeby zrobic efekt obracania sie */
+
+.container-strona1-obrot{
+    background-color: transparent;
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+
+}
+
+.container-strona1-obrot-wnetrze{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.container-strona1-obrot:hover .container-strona1-obrot-wnetrze{
+    transform: rotateY(180deg);
+}
+
+.container-strona1-each-img, .container-strona1-tyl{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+.container-strona1-tyl{
+    background-color: aqua;
+    color: white;
+    transform: rotateY(180deg);
 }
