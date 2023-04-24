@@ -1,0 +1,28 @@
+/* Style dla klas dla strony "O Nas*/
+
+.container-o-nas{
+    background-color: green;
+    color: white;
+    height: 100vh;
+}
+
+.container-o-nas-title{
+    font-size: 100px;
+    display: block;
+    padding: 15%;
+    padding-top: 8%;
+    padding-bottom: 0;
+    width: 100%;
+
+}
+.container-p-o-nas{
+    display: flex; 
+    padding-top: 30px;   
+}
+
+.p-o-nas-2{
+    display: inline-block;
+    word-wrap: break-word;
+    width: 30%;
+    margin-left: 15%;
+}
