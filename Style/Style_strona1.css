@@ -1,11 +1,12 @@
-
-/* Style dla strony I*/
+/* Style dla strony II*/
 
 .container-strona1-title{ 
     background-image: url(../Obrazy/tlo.jpg);
+    background-color: rgba(200,100,0,.5);
+    background-blend-mode: multiply;
     display: flex;
     width:100%;
-    height: 350px;
+    height: 450px;
     justify-content:center;
     text-align: center;
     flex-direction: column;
@@ -14,91 +15,38 @@
 .container-strona1-title > p{
     font-size:50px;
     color: white;
-    filter: brightness(1);
     font-weight: 900;
-}
-
-p{
-    display: block;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.5s ease-in-out 1.6s, transform 2.5s ease-in-out 0.6s;
 }
 
 .container-strona1{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
     height: 100vh;
-    background-color: white;
 }
+
+/* Style dla zdjęć, żeby zfocusowane się rozszerzaly*/
 
 .container-strona1-img{
-    display: flex;
-    padding-top: 15%;
-    justify-content: space-evenly;
-    align-items: center;
+    padding-top: 150px;
+    width: 80%;
+    display:flex;
+    height: 20rem;
+    gap: 1rem;
 }
 
-.container-strona1-each-img{
-    display: flex;
-    width: 250px;
-    height: 300px;
-    background-color: aqua;
-    justify-content: center;
-    border-radius: 25px;
+.container-strona1-img > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all 1.5s cubic-bezier(.25,.4,.45,1.4);
 }
 
-.img-strona1{
-    display: block;
-    height: 95%;
-    width: 85%;
-    border-radius: 25px;
-    margin-top: -35px;
+.container-strona1-img >div:hover{
+    flex: 5;
 }
-
-/* Style których będe uzywal zeby zrobic efekt obracania sie */
-
-.container-strona1-obrot{
-    background-color: transparent;
-    width: 250px;
-    height: 300px;
-    perspective: 1000px;
-
-}
-
-.container-strona1-obrot-wnetrze{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-}
-
-.container-strona1-obrot:hover .container-strona1-obrot-wnetrze{
-    transform: rotateY(180deg);
-}
-
-.container-strona1-each-img, .container-strona1-tyl{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-
-.container-strona1-tyl{
-    display: flex;
-    align-items: center;
-    font-size:20px;
-    font-weight: bold;
-    background-color: aqua;
-    justify-content: center;
-    color: white;
-    transform: rotateY(180deg);
-}
-
-.container-strona1-tyl > a{
-    color: white;
-    font-weight: bold;
-    font-size:40px;
-}
-
-
-

@@ -17,9 +17,16 @@
     <link rel="stylesheet" href="Style/Style_strona2.css">
     <link rel="stylesheet" href="Style/Style_menuGorne.css">
     <link rel="stylesheet" href="Style/Style_oNas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 
     <!-- Tutaj jest link do ikonek w menu -->
     <script src="https://kit.fontawesome.com/2005037513.js" crossorigin="anonymous"></script>
+
+    <!-- Tutaj są skrypty JS/Jquery-->
+    <script src = "JS/jquery-3.6.4.js"></script>
+    <script src = "JS/js_strona1.js"></script>
+
 </head>
 
 <body>
@@ -40,31 +47,52 @@
 
     <!--Zawartość strony -->
     <div class="main-container">
-        <!--Strona I -->
+
+        <!--Strona 1 -->
 
         <!--Tytul (Wstęp do strony 1)-->
 
         <div class="container-strona1-title">
             <p>Nasze wypieki</p>
+            <p>To gwarantowana</p>
             <p>Smakowita przygoda w każdym kawałku...</p>
         </div>
 
         <!--Reszta strony 1-->
-        <div class="container-strona1">
 
-            <div class="container-strona1-img">
+        <div class = "container-strona1">
+            <!--Pojemnik na zdjecia -->
+            <div class = "container-strona1-img">
+                <div style="background-image: url('Obrazy/Ciasto4.jpg');"></div>
+                <div style="background-image: url('Obrazy/Ciasto5.jpg');"></div>
+                <div style="background-image: url('Obrazy/Ciasto6.jpg');"></div>
+                <div style="background-image: url('Obrazy/Ciasto7.jpg');"></div>
+                <div style="background-image: url('Obrazy/Ciasto8.jpg');"></div>
 
-                <div class="container-strona1-obrot">
+            </div>
 
-                    <div class="container-strona1-obrot-wnetrze">
+
+        </div>
+
+
+        <!--Strona 1-->
+
+        <!--Reszta strony 2-->
+        <div class="container-strona2">
+
+            <div class="container-strona2-img">
+
+                <div class="container-strona2-obrot">
+
+                    <div class="container-strona2-obrot-wnetrze">
 
                         <!-- Tutaj jest przednia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-each-img">
-                            <img src="Obrazy/Ciasto2.jpg" class="img-strona1">
+                        <div class="container-strona2-each-img">
+                            <img src="Obrazy/Ciasto2.jpg" class="img-strona2">
                         </div>
 
                         <!-- Tutaj jest tylnia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-tyl">
+                        <div class="container-strona2-tyl">
                             <a>Ciasta</a>
                         </div>
 
@@ -73,40 +101,40 @@
                 </div>
 
 
-                <div class="container-strona1-obrot">
-                    <div class="container-strona1-obrot-wnetrze">
+                <div class="container-strona2-obrot">
+                    <div class="container-strona2-obrot-wnetrze">
                         <!-- Tutaj jest przednia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-each-img">
-                            <img src="Obrazy/ciastka1.jpg" class="img-strona1">
+                        <div class="container-strona2-each-img">
+                            <img src="Obrazy/ciastka1.jpg" class="img-strona2">
                         </div>
                         <!-- Tutaj jest tylnia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-tyl">
+                        <div class="container-strona2-tyl">
                             <a>Ciastka</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="container-strona1-obrot">
-                    <div class="container-strona1-obrot-wnetrze">
+                <div class="container-strona2-obrot">
+                    <div class="container-strona2-obrot-wnetrze">
                         <!-- Tutaj jest przednia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-each-img">
-                            <img src="Obrazy/Tort1.jpg" class="img-strona1">
+                        <div class="container-strona2-each-img">
+                            <img src="Obrazy/Tort1.jpg" class="img-strona2">
                         </div>
                         <!-- Tutaj jest tylnia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-tyl">
+                        <div class="container-strona2-tyl">
                             <a>Torty</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="container-strona1-obrot">
-                    <div class="container-strona1-obrot-wnetrze">
+                <div class="container-strona2-obrot">
+                    <div class="container-strona2-obrot-wnetrze">
                         <!-- Tutaj jest przednia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-each-img">
-                            <img src="Obrazy/inneslodkosci.jpg" class="img-strona1">
+                        <div class="container-strona2-each-img">
+                            <img src="Obrazy/inneslodkosci.jpg" class="img-strona2">
                         </div>
                         <!-- Tutaj jest tylnia strona wyswietlanej "karty" -->
-                        <div class="container-strona1-tyl">
+                        <div class="container-strona2-tyl">
                             <a>Inne słodkości</a>
                         </div>
                     </div>
@@ -117,13 +145,13 @@
         </div>
 
         <!--Strona II -->
-        <div class="container-strona2">sadsdas</div>
 
         <!--O Nas -->
         <div class="container-o-nas">
             <div class="container-o-nas-title">
                 O Nas
             </div>
+            <img src="Obrazy/Ciasto3.jpg" data-animation="animate__animated animate__bounceInLeft delay-06" class="animate__animated animate__bounceInLeft delay-06">
             <hr>
             <div class="container-p-o-nas">
                 <p class="p-o-nas-2">
