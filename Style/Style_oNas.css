@@ -4,17 +4,18 @@
     background-color: green;
     color: white;
     height: 100vh;
+    width: 100%;
 }
 
 .container-o-nas-title{
-    font-size: 100px;
+    font-size: 25px;
     display: block;
     padding: 15%;
     padding-top: 8%;
     padding-bottom: 0;
     width: 100%;
-
 }
+
 .container-p-o-nas{
     display: flex; 
     padding-top: 30px;   
