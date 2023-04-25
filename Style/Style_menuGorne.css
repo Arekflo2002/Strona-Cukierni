@@ -17,4 +17,9 @@ header > a{
     color: black;
     font-weight: bold;
     font-size: 30px;
+    text-decoration: none;
+}
+
+header > a:hover{
+    font-size: 40px;
 }

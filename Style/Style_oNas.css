@@ -3,7 +3,7 @@
 .container-o-nas{
     background-color: wheat;
     color: blue;
-    height: 100vh;
+    height: ;
     width: 65%;
     margin: auto;
 }
@@ -19,7 +19,9 @@
 .container-p-o-nas{
     display: flex; 
     padding-top: 30px;  
-    font-size: 15px; 
+    margin: auto;
+    font-size: 15px;
+    flex-direction: column; 
 }
 
 .p-o-nas-2{
@@ -27,4 +29,20 @@
     word-wrap: break-word;
     width: 30%;
     margin-left: 15%;
+}
+
+.container-o-nas-img{
+    width: 30%;
+}
+
+.container-o-nas-sub-title{
+    color: black;
+    display: block;
+    margin-left: 15%;
+    margin-top:15px;
+    font-size: 45px;
+}
+
+.hr-o-nas{
+    width: 50%;
 }
