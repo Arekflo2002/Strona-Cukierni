@@ -10,6 +10,16 @@
     justify-content:center;
     text-align: center;
     flex-direction: column;
+    animation: sliding 120s infinite;
+}
+
+@keyframes sliding{
+    from{
+        background-position: left;
+    }
+    to{
+        background-position: right;
+    }
 }
 
 .container-strona1-title > p{
@@ -17,8 +27,8 @@
     color: white;
     font-weight: 900;
     opacity: 0;
-    transform: translateY(100px);
-    transition: opacity 0.5s ease-in-out 1.6s, transform 2.5s ease-in-out 0.6s;
+    transform: translateY(100px);   
+    transition: opacity 0.5s ease-in-out 0.5s, transform 0.5s ease-in-out 0.6s;
 }
 
 .container-strona1{
