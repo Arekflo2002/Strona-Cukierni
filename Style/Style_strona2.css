@@ -1,14 +1,31 @@
 
-/* Style dla strony I*/
+/* Style dla strony II*/
+
+.container-strona2-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.container-strona2-title > p{
+    font-size:75px;
+    color: pink;
+    font-weight: 900;
+    margin: 25px;
+}
 
 .container-strona2{
     height: 100vh;
     background-color: white;
+    width: 80%;
+    margin: auto;
 }
 
 .container-strona2-img{
     display: flex;
-    padding-top: 15%;
+    padding-top: 8%;
     justify-content: space-evenly;
     align-items: center;
 }

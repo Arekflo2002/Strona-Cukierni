@@ -1,14 +1,15 @@
 /* Style dla klas dla strony "O Nas*/
 
 .container-o-nas{
-    background-color: green;
-    color: white;
+    background-color: wheat;
+    color: blue;
     height: 100vh;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 .container-o-nas-title{
-    font-size: 25px;
+    font-size: 75px;
     display: block;
     padding: 15%;
     padding-top: 8%;
@@ -17,7 +18,8 @@
 
 .container-p-o-nas{
     display: flex; 
-    padding-top: 30px;   
+    padding-top: 30px;  
+    font-size: 15px; 
 }
 
 .p-o-nas-2{
