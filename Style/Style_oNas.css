@@ -2,31 +2,28 @@
 
 .container-o-nas{
     background-color: wheat;
-    color: blue;
-    width: 65%;
+    color: black ;
+    width: 70%;
     margin: auto;
-}
-
-.container-o-nas-title{
-    font-size: 75px;
-    display: block;
-    padding: 15%;
-    padding-top: 8%;
-    padding-bottom: 0;
-}
-
-.container-o-nas > hr{
-    margin-left: 15%;
-    margin-right: 15%;
-    display: block;
-}
-
-.container-p-o-nas-kontent{
     display: flex; 
-    padding-top: 30px;  
-    margin: auto;
     font-size: 15px;
     flex-direction: column; 
+}
+
+.container-o-nas-sekcja1{
+    display: inline;
+    width: 49%;
+    background-color: aqua;
+}
+
+.container-o-nas-sekcja1-title{
+    color: black;
+    display: block;
+    font-size: 45px;
+}
+
+.hr-o-nas-sekcja{
+    width:50%;
 }
 
 .o-nas-sekcja-p{
@@ -36,23 +33,27 @@
 }
 
 .container-o-nas-img{
+    height: 20rem;
+    display: inline-block;
     width: 30%;
+    align-self: flex-end;
 }
 
-.container-o-nas-sekcja1-title{
-    color: black;
-    display: block;
-    margin-top:15px;
-    font-size: 45px;
-}
-
-.hr-o-nas-sekcja{
-    width: 50%;
-}
-
-.container-o-nas-sekcja1{
+.container-o-nas-sekcja2{
     display: inline;
     width: 49%;
-    margin-left: 15%;
-    background-color: aqua;
+    background-color: blueviolet;
 }
+
+
+/* Style dla efektu */
+
+.container-o-nas-sekcja1:hover {
+    transform: scale(1.15) translateZ(0);
+    background-size: 300px;
+}
+
+.container-o-nas .container-o-nas-sekcja2:not(:hover) {
+    transform: scale(0.9);
+}
+
