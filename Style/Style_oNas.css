@@ -8,6 +8,7 @@
     margin: auto;
     font-size: 15px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     height: 100vh;
     row-gap: 20px;
 }
@@ -16,27 +17,26 @@
 .container-o-nas-sekcja{
     background-color:white;
     width: 30%;
-    margin-left: auto;
-    margin-right: auto;
+    transition: all 0.5 ease;
 }
 
-/* Style dla efektow*/
+.container-o-nas-sekcja > h1{
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+}
 
-.container-o-nas-sekcja:hover{
+/* Style dla efektow */
+
+
+.container-o-nas-sekcja.active{
     transform: scale(1.15) translateZ(0);
-    background-size: 260px;
 }
 
-.container-o-nas:hover{
-    
-}
-
-.container-o-nas:hover > .container-o-nas-sekcja:not(:hover){
+.container-o-nas-sekcja.inactive{
     transform: scale(0.9);
     filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
 }
-
-
 
 
 
