@@ -1,59 +1,42 @@
 /* Style dla klas dla strony "O Nas*/
 
 .container-o-nas{
+    display: flex; 
     background-color: wheat;
     color: black ;
     width: 70%;
     margin: auto;
-    display: flex; 
     font-size: 15px;
-    flex-direction: column; 
+    flex-wrap: wrap;
+    height: 100vh;
+    row-gap: 20px;
 }
 
-.container-o-nas-sekcja1{
-    display: inline;
-    width: 49%;
-    background-color: aqua;
-}
 
-.container-o-nas-sekcja1-title{
-    color: black;
-    display: block;
-    font-size: 45px;
-}
-
-.hr-o-nas-sekcja{
-    width:50%;
-}
-
-.o-nas-sekcja-p{
-    display: inline-block;
-    word-wrap: break-word;
+.container-o-nas-sekcja{
+    background-color:white;
     width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.container-o-nas-img{
-    height: 20rem;
-    display: inline-block;
-    width: 30%;
-    align-self: flex-end;
-}
+/* Style dla efektow*/
 
-.container-o-nas-sekcja2{
-    display: inline;
-    width: 49%;
-    background-color: blueviolet;
-}
-
-
-/* Style dla efektu */
-
-.container-o-nas-sekcja1:hover {
+.container-o-nas-sekcja:hover{
     transform: scale(1.15) translateZ(0);
-    background-size: 300px;
+    background-size: 260px;
 }
 
-.container-o-nas .container-o-nas-sekcja2:not(:hover) {
-    transform: scale(0.9);
+.container-o-nas:hover{
+    
 }
+
+.container-o-nas:hover > .container-o-nas-sekcja:not(:hover){
+    transform: scale(0.9);
+    filter: brightness(.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+
+
+
 
