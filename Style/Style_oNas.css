@@ -2,11 +2,9 @@
 
 .container-o-nas{
     display: flex; 
-    background-color: wheat;
-    color: black ;
+    background-color: white;
     width: 70%;
     margin: auto;
-    font-size: 15px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 100vh;
@@ -23,7 +21,18 @@
 .container-o-nas-sekcja > h1{
     font-size: 35px;
     text-align: center;
-    margin: auto;
+}
+
+.container-o-nas-sekcja > p{
+    text-align: center;
+    word-wrap: break-word;
+    margin: 15%;
+}
+
+.container-o-nas-sekcja-img{
+    width: 30%;
+    background-size: cover;
+    background-position: center center;
 }
 
 /* Style dla efektow */
