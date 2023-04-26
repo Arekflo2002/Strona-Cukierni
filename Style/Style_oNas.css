@@ -7,15 +7,20 @@
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 100vh;
     row-gap: 20px;
+    column-gap: 20px;
 }
 
 
 .container-o-nas-sekcja{
     background-color:white;
     width: 30%;
+    margin-top: 9%;
     transition: all 0.5 ease;
+}
+
+.sekcja-gora{
+    margin-top:0;
 }
 
 .container-o-nas-sekcja > h1{
@@ -26,20 +31,40 @@
 .container-o-nas-sekcja > p{
     text-align: center;
     word-wrap: break-word;
-    margin: 15%;
+    margin: 4%;
+    margin-top: 15%;
 }
 
+
 .container-o-nas-sekcja-img{
-    width: 30%;
+    margin-top: 9%;
+    width: 33%;
+    height: 275px;
     background-size: cover;
     background-position: center center;
+}
+
+#img-o-nas-dol{
+    margin-top:5%;
+    width: 30%;
+    height: 500px;
+    margin-bottom:50px;
+}
+
+#img-o-nas-lewo{
+    transform: translateX(4%);
+}
+
+#img-o-nas-prawo{
+    transform: translateX(-4%);
+
 }
 
 /* Style dla efektow */
 
 
 .container-o-nas-sekcja.active{
-    transform: scale(1.15) translateZ(0);
+    transform: scale(1.05) translateZ(0);
 }
 
 .container-o-nas-sekcja.inactive{
