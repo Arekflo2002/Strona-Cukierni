@@ -15,7 +15,13 @@
     padding-bottom: 0;
 }
 
-.container-p-o-nas{
+.container-o-nas > hr{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+}
+
+.container-p-o-nas-kontent{
     display: flex; 
     padding-top: 30px;  
     margin: auto;
@@ -23,25 +29,30 @@
     flex-direction: column; 
 }
 
-.p-o-nas-2{
+.o-nas-sekcja-p{
     display: inline-block;
     word-wrap: break-word;
     width: 30%;
-    margin-left: 15%;
 }
 
 .container-o-nas-img{
     width: 30%;
 }
 
-.container-o-nas-sub-title{
+.container-o-nas-sekcja1-title{
     color: black;
     display: block;
-    margin-left: 15%;
     margin-top:15px;
     font-size: 45px;
 }
 
-.hr-o-nas{
+.hr-o-nas-sekcja{
     width: 50%;
+}
+
+.container-o-nas-sekcja1{
+    display: inline;
+    width: 49%;
+    margin-left: 15%;
+    background-color: aqua;
 }
