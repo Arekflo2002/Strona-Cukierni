@@ -39,6 +39,25 @@
 }
 
 .container-strona-kontakt-sekcja-info{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 650px;
     width: 50%;
     color: white;
+}
+
+
+.container-strona-kontakt-sekcja-info-title{
+    font-size:55px;
+    text-align: right;
+    padding-right: 155px;
+    margin: 0;
+    width: 100%;
+}
+
+.container-strona-kontakt-sekcja-info-content{
+    color:pink;
+    width: 60%;
+
 }
