@@ -1,0 +1,44 @@
+
+.container-strona-kontakt{
+    height: 110vh;
+    margin-top: 250px;
+
+    background-image: url(../Obrazy/tlo2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.container-strona-kontakt-title{
+    font-size:75px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.container-strona-kontakt-sekcja{
+    display: flex;
+    height: 650px;
+    justify-content: flex-start;
+    margin-bottom: 105px;
+    width: 50%;
+}
+
+.container-strona-kontakt-sekcja-mapa{
+    border:0;
+    width: 60%;
+    height: 100%;
+}
+
+.container-strona-kontakt-sekcja-info{
+    width: 50%;
+    color: white;
+}
