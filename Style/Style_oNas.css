@@ -7,8 +7,8 @@
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 2.06vh;
+    column-gap: 1.04vw;
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 .container-o-nas-sekcja > h1{
-    font-size: 55px;
+    font-size: 5.6vh;
     text-align: center;
     color: lightpink;
 }
@@ -34,14 +34,14 @@
     word-wrap: break-word;
     margin: 4%;
     margin-top: 15%;
-    font-size: 20px;
+    font-size: 2.06vh;
 }
 
 
 .container-o-nas-sekcja-img{
     margin-top: 9%;
     width: 33%;
-    height: 275px;
+    height: 28.3vh;
     background-size: cover;
     background-position: center center;
 }
@@ -49,8 +49,8 @@
 #img-o-nas-dol{
     margin-top:5%;
     width: 30%;
-    height: 500px;
-    margin-bottom:50px;
+    height: 51.5vh;
+    margin-bottom:5.05vh;
 }
 
 #img-o-nas-lewo{

@@ -42,7 +42,7 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    height: 650px;
+    height: 67.07vh;
     width: 50%;
     color: white;
 }
@@ -51,7 +51,7 @@
 .container-strona-kontakt-sekcja-info-title{
     font-size:55px;
     text-align: right;
-    padding-right: 155px;
+    padding-right: 18.07vw;
     margin: 0;
     width: 100%;
 }
