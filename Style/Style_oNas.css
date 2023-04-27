@@ -24,8 +24,9 @@
 }
 
 .container-o-nas-sekcja > h1{
-    font-size: 35px;
+    font-size: 55px;
     text-align: center;
+    color: lightpink;
 }
 
 .container-o-nas-sekcja > p{
@@ -33,6 +34,7 @@
     word-wrap: break-word;
     margin: 4%;
     margin-top: 15%;
+    font-size: 20px;
 }
 
 
