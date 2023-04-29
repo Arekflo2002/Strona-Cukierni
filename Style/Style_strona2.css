@@ -81,19 +81,22 @@
 
 
 .container-strona2-tyl{
-    display: flex;
-    align-items: center;
     font-size:2.06vh;
     font-weight: bold;
     background-color: rgb(251, 176, 188);
-    justify-content: center;
     color: wheat;
     transform: rotateY(180deg);
 }
 
 .container-strona2-tyl > a{
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 600;
+    text-align: center;
+    width: 100%;
+    height: 100%;
     font-size: 5.12vh;
 }
 
