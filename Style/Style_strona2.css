@@ -11,8 +11,8 @@
 
 .container-strona2-title > p{
     font-size:7.73vh;
-    color: pink;
-    font-weight: 900;
+    color: rgb(253, 90, 117);
+    font-weight: 500;
     margin: 2.6vh;
 }
 
@@ -35,7 +35,7 @@
     display: flex;
     width: 25.7vw;
     height: 31vh;
-    background-color: aqua;
+    background-color: rgb(251, 176, 188);
     justify-content: center;
     border-radius: 2.6vh;
 }
@@ -85,14 +85,14 @@
     align-items: center;
     font-size:2.06vh;
     font-weight: bold;
-    background-color: aqua;
+    background-color: rgb(251, 176, 188);
     justify-content: center;
-    color: white;
+    color: wheat;
     transform: rotateY(180deg);
 }
 
 .container-strona2-tyl > a{
-    color: white;
+    color: rgb(211, 155, 57);
     font-weight: bold;
     font-size:4.12vh;
 }

@@ -2,7 +2,7 @@
 
 header{
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(127, 43, 57);
     position: fixed;
     height: 100px;
     width: 100%;
@@ -14,11 +14,10 @@ header{
 
 header > a{
     margin: 35px;
-    color: black;
+    color: wheat;
     font-weight: bold;
     font-size: 30px;
     text-decoration: none;
-
     position: relative; 
     cursor: pointer;
     transition: 0.4 all ease;
@@ -37,7 +36,7 @@ header > a::after{
     height: 2px;
     bottom:-5px;
     left:0;
-    background-color: #0051ff;
+    background-color: rgb(231, 160, 27);
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
