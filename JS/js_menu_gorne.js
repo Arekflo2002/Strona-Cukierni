@@ -28,7 +28,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".toKontakt").click(function(){
         $("html,body").animate({
-            scrollTop: $("#strona-kontakt").offset().top - $(".header").height()
+            scrollTop: $("#strona-kontakt").offset().top - $("header").height()
         },1000);
     });
 });

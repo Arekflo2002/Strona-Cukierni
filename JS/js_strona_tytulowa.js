@@ -26,7 +26,6 @@ function sliding_start() {
         case 2: tablicaImg[2].style.display = 'block'; break;
         case 3: tablicaImg[3].style.display = 'block'; break;
     }
-    console.log(ktory)
 
     // Przekazujac ktory musze zmniejszyc o 1 zeby zmatchowal indeksy w tablicy 
     sliding_img(ktory);
