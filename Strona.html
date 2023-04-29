@@ -31,10 +31,11 @@
     <script src = "JS/js_strona1.js"></script>
     <script src = "JS/js_strona_oNas.js"></script>
     <script src = "JS/js_menu_gorne.js"></script>
+    <script src = "JS/js_strona_tytulowa.js"></script>
 
 </head>
 
-<body>
+<body onload="sliding_start()">
     <!--Menu Górne -->
     <header>
         <a id="toStrona1" href="#strona1-title">Nasze Wypieki</a>
@@ -45,7 +46,12 @@
 
 
     <!--Strona początkowe - zdjęcie -->
-    <div class="title-img-container"></div>
+    <div id ="strona-tytulowa-img1" style="background-image: url('Obrazy/Ciastotlo1.jpg');display:block;" class="title-img-container"></div>
+    <div id ="strona-tytulowa-img2" style="background-image: url('Obrazy/Ciastotlo2.jpg');" class="title-img-container"></div>
+    <div id ="strona-tytulowa-img3" style="background-image: url('Obrazy/Ciastotlo3.jpg');" class="title-img-container"></div>
+    <div id ="strona-tytulowa-img4" style="background-image: url('Obrazy/Ciastotlo4.jpg');" class="title-img-container"></div>
+
+
 
     <!--Zawartość strony -->
     <div class="main-container">
