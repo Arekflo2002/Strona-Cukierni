@@ -1,5 +1,6 @@
 // Tutaj bedzie funkcja ogarniajaca przesuwanie zdjec na stronie tytulowej w formie slajdow 
 
+// Czekam na zaladowanie sie strony
 window.addEventListener('load',function(){
 
     // Tworze liste obrazow, które będe zmieniac 
@@ -7,8 +8,8 @@ window.addEventListener('load',function(){
     var img2 = document.getElementById('strona-tytulowa-img2');
     var img3 = document.getElementById('strona-tytulowa-img3');
     var img4 = document.getElementById('strona-tytulowa-img4');
-    // Tworze teraz Tablice z obrazkow 
-    tablicaImg = [img1,img2,img3,img4];
+    // Tworze teraz Tablice z obrazkow(globalnie)
+    window.tablicaImg = [img1,img2,img3,img4];
     sliding_start();
 });
 
@@ -17,17 +18,18 @@ function sliding_start() {
     // bedzie wyswietlany a nastepnie wywola funckje odpowiedzialna
     // za przesuwanie od danego obrazka dalej 
     // Teraz losuje który obrazek wyswietli się pierwszy 
-    var ktory = Math.round(Math.random()*4);
+    var ktory = Math.round(Math.random()*3);
     // Teraz switchem wyswietle dany obraz
     switch(ktory){
-        case 1: tablicaImg[0].style.display = 'block'; break;
-        case 2: tablicaImg[1].style.display = 'block'; break;
-        case 3: tablicaImg[2].style.display = 'block'; break;
-        case 4: tablicaImg[3].style.display = 'block'; break;
+        case 0: tablicaImg[0].style.display = 'block'; break;
+        case 1: tablicaImg[1].style.display = 'block'; break;
+        case 2: tablicaImg[2].style.display = 'block'; break;
+        case 3: tablicaImg[3].style.display = 'block'; break;
     }
+    console.log(ktory)
 
     // Przekazujac ktory musze zmniejszyc o 1 zeby zmatchowal indeksy w tablicy 
-    sliding_img(ktory-1);
+    sliding_img(ktory);
 }
 
 function sliding_img(index){
@@ -39,7 +41,7 @@ function sliding_img(index){
 
     // Musze sprawdzic czy nie zatoczylem kola(czy dajac indeks +1 nie wyjde poza tablice)
 
-    if (index_img_next + 1 >= 4)
+    if (index_img_next + 1 >= 3)
     {
       // Zataczam kolo czyli ustawiam 
       index_img_next = 0;
