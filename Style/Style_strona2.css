@@ -11,8 +11,8 @@
 
 .container-strona2-title > p{
     font-size:7.73vh;
-    color: rgb(253, 90, 117);
-    font-weight: 500;
+    color: rgb(127, 43, 57);
+    font-weight: 700;
     margin: 2.6vh;
 }
 
@@ -35,7 +35,7 @@
     display: flex;
     width: 25.7vw;
     height: 31vh;
-    background-color: rgb(251, 176, 188);
+    background-color: rgb(127, 43, 57);
     justify-content: center;
     border-radius: 2.6vh;
 }
@@ -83,19 +83,20 @@
 .container-strona2-tyl{
     font-size:2.06vh;
     font-weight: bold;
-    background-color: rgb(251, 176, 188);
+    background-color: rgb(127, 43, 57);
     color: wheat;
     transform: rotateY(180deg);
 }
 
 .container-strona2-tyl > a{
-    color: white;
+    color: wheat;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: 600;
     text-align: center;
     width: 100%;
+    text-decoration: none;
     height: 100%;
     font-size: 5.12vh;
 }
