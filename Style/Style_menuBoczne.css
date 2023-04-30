@@ -1,0 +1,26 @@
+.side-menu-container,.side-menu> a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .side-menu-container{
+    position: fixed;
+    height: 100vh;
+    top:0;
+    bottom:0;
+    left: 5px;
+  }
+  
+  .side-menu > a{
+    margin-top:15px;
+    height: 40px;
+    background-color: rgb(127, 43, 57);
+    color: white;
+    width: 40px;
+  }
+  
+  .side-menu > a:hover{
+    color: wheat;
+  }

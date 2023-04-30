@@ -32,3 +32,19 @@ $(document).ready(function(){
         },1000);
     });
 });
+
+
+// Tutaj zajmę się zamienianiem kiedy pokazuje ktore menu 
+
+$(document).ready(function(){    
+    $(window).scroll(function(){
+    var userHeight = $(window).scrollTop();
+    if(userHeight<$(".title-img-container").height()/1.25){
+        $(".side-menu-container").show();
+        $("header").hide();
+    }
+    else{
+        $(".side-menu-container").hide();
+        $("header").show();
+    }});
+});

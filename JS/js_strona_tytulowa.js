@@ -51,8 +51,9 @@ function sliding_img(index){
     }
 
     // Tutaj podmieniam obraz
-    tablicaImg[index].style.display = 'none';
     tablicaImg[index_img_next].style.display = 'block';
+    tablicaImg[index].style.display = 'none';
+
 
     // A tutaj daje 2s przerwy przed nastepnym uruchomieniem funkcji 
     // A tutaj wywoluje moja funkcje znowu, przekazujac aktualny indeks obrazu

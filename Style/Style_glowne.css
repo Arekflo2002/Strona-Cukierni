@@ -6,15 +6,6 @@ body{
     margin: 0;
 }
 
-/* Style dla klas ogólnych
-    margin: auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 2.5%;
-*/
-
 .main-container{
     background-color: white;
 }
@@ -29,8 +20,8 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
+    animation-duration: 2s;
 }
-
 
 
 
